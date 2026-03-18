@@ -1,5 +1,6 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. EcrireFichier.
+       AUTHOR. Lélia.
 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
