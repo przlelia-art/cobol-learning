@@ -1,0 +1,17 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. Boucles.
+       AUTHOR. Lélia.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+
+       01  WS-COMPTEUR PIC 9(2) VALUE 1.
+
+       PROCEDURE DIVISION.
+
+       PERFORM VARYING WS-COMPTEUR FROM 1 BY 1 UNTIL WS-COMPTEUR > 10
+           DISPLAY "Compteur : " WS-COMPTEUR
+       END-PERFORM.
+
+           STOP RUN.
+       
